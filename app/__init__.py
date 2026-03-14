@@ -1,0 +1,1 @@
+"""Application package for the Verea take-home service."""
