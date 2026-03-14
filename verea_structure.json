@@ -1,0 +1,46 @@
+{
+  "project": "Verea",
+  "root": {
+    "files": [
+      ".env",
+      ".env.example",
+      ".gitignore",
+      "README.md",
+      "requirements.txt"
+    ],
+    "folders": {
+      "app": {
+        "files": [
+          "__init__.py",
+          "main.py"
+        ],
+        "folders": {
+          "contacts": {
+            "files": [
+              "__init__.py",
+              "models.py",
+              "repository.py",
+              "router.py",
+              "service.py"
+            ]
+          },
+          "nango": {
+            "files": [
+              "__init__.py",
+              "client.py"
+            ]
+          }
+        }
+      },
+      "tests": {
+        "files": [
+          "__init__.py",
+          "test_normalisation.py",
+          "test_repository.py",
+          "test_router.py",
+          "test_sanity.py"
+        ]
+      }
+    }
+  }
+}
